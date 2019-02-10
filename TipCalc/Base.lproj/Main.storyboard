@@ -61,13 +61,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxV-6j-9Za">
-                                <rect key="frame" x="184" y="179" width="120" height="31"/>
-                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmh-mS-aAe">
                                 <rect key="frame" x="62" y="179" width="120" height="31"/>
                                 <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -118,6 +111,13 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOz-9c-fNG">
                                 <rect key="frame" x="228" y="150" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxV-6j-9Za">
+                                <rect key="frame" x="184" y="179" width="120" height="31"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -177,9 +177,9 @@
                         <outlet property="customTipPercentageSlider" destination="WKG-CF-1f1" id="F5P-Oo-vW1"/>
                         <outlet property="inputTextField" destination="OfU-si-Mdz" id="Uvb-tR-e7v"/>
                         <outlet property="tip15Label" destination="Fmh-mS-aAe" id="k6x-Pk-qZp"/>
-                        <outlet property="tip18Label" destination="qxV-6j-9Za" id="kUr-Kn-W3P"/>
+                        <outlet property="tipCustomLabel" destination="qxV-6j-9Za" id="xKG-T9-5zr"/>
                         <outlet property="total15Label" destination="2li-28-eny" id="aII-SR-nnr"/>
-                        <outlet property="total18Label" destination="vAn-FK-RpA" id="vdp-0M-zhR"/>
+                        <outlet property="totalCustomLabel" destination="vAn-FK-RpA" id="N9b-W6-rLl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
